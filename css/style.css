@@ -16,3 +16,10 @@ body {
   background-color: #131313;
   background-size: 20px 20px;
 }
+
+#books-found {
+  color: rgb(63, 223, 63);
+}
+#showcase {
+  color: yellow;
+}

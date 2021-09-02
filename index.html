@@ -18,16 +18,6 @@
   <body class="bg-gray p-4">
     <header>
       <h1 class="text-center text-success fw-bold">Search books</h1>
-      <!-- <div class="mb-3 w-50 d-flex justify-content-center">
-        <input id="search-box" type="text" placeholder="Search your books" />
-        <button
-          id="search-button"
-          class="btn btn-outline-secondary"
-          onclick="loadBooks()"
-        >
-          Search
-        </button>
-      </div> -->
       <div class="input-group mb-3 w-50 mx-auto">
         <input
           id="search-field"
@@ -56,28 +46,27 @@
           </div>
         </div>
       </div>
-      <!-- book search result -->
-      <div id="result-analysis" class="text-center text-light">
-        Books found <span id="books-found">00</span>
-        showing 20 of them
+      <!-- book search result-analysis -->
+      <div id="result-analysis" class="text-center text-light fs-1 my-4">
+        Books found <span id="books-found">00</span> ------> showing
+        <span id="showcase">20</span> of them
       </div>
       <div id="search-result" class="row row-cols-1 row-cols-md-5 g-4"></div>
     </main>
 
+    <!-- error-message segment -->
     <div>
       <br />
-      <p id="error-message" class="text-danger">
+      <p id="error-message" class="text-danger fs-1">
         Something went wrong please try again later
       </p>
-      <p id="no-result" class="text-danger text-center">No book found</p>
+      <p id="no-result" class="text-danger text-center fs-1">No book found</p>
     </div>
 
-    <!-- single meal details -->
-    <!-- <div id="meal-details" class="w-50 mx-auto"></div> -->
-
-    <!-- Books search result -->
+    <!-- Books search result display -->
     <div id="search-result" class="row row-cols-1 row-cols-md-3 g-4"></div>
 
+    <!-- external js file  -->
     <script src="js/app.js"></script>
   </body>
 </html>
